@@ -1,4 +1,5 @@
 using System;
+namespace daisu{
 int ran(int num,int face,int add){
   Random r = new System.Random();
   if(face == 100){
@@ -11,4 +12,5 @@ int ran(int num,int face,int add){
     Console.Write("{}面ダイスを{}回振り{}を足した\n結果は{}\n",face,num,add,tmp)
     return tmp;
   }
+}
 }
